@@ -264,19 +264,20 @@
                                     
                                     </div>
                                 </p>
-                            
-                                @if($i>0)
-                                <div class="btn btn-primary" onclick="myStepper.previous()">قبلی</div>
-                                @endif
-                                @if($i<$steps-1)
-                                <?php
-                                $action='action'.$i;
-                                ?>
-                                <div class="btn btn-primary " id="{{$action}}" onclick="myStepper.next()">بعدی</div>
-                                @endif
-                                @if($i==$steps-1)
-                                <button class="btn btn-success" >ثبت</button>
-                                @endif
+                                <div class="row" style="padding:30px">
+                                    @if($i>0)
+                                    <div class="col-3 btn btn-primary" onclick="myStepper.previous()">قبلی</div>
+                                    @endif
+                                    @if($i<$steps-1)
+                                    <?php
+                                    $action='action'.$i;
+                                    ?>
+                                    <div class="col-3 btn btn-primary" id="{{$action}}" onclick="myStepper.next()">بعدی</div>
+                                    @endif
+                                    @if($i==$steps-1)
+                                    <button class="col btn btn-success" >ثبت</button>
+                                    @endif
+                                </div>
                             </div>
                         <?php
                             }
