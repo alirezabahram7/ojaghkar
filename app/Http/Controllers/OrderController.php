@@ -126,4 +126,8 @@ class OrderController extends Controller
 
         return redirect('/')->with('success','  كد پیگیری شما'.$order->code);
     }
+    public function list(){
+        $orders=order::all();
+        return view('admin.list',['orders'=>$orders]);
+    }
 }

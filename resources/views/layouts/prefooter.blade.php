@@ -32,6 +32,8 @@
                     <p class="footer-text2">تلفن : 44613166</p><br>
                     <p class="footer-text2">پشتیبانی : 22374797</p><br>
                     <p class="footer-text2">ایمیل: info@ojaghkar.ir</p>
+                    <p class="footer-text2">a.mehrabi1962@gmail.com</p>
+
                 </div>
                 <div class="col-xs-12 col-sm-4">
                    <img class="img-footer2" src="images/logo1212.png" alt=""/>
