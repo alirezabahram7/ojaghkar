@@ -34,3 +34,10 @@ Route::get('/zarfshoui', function () {
 });
 Route::get('/order/{name}', 'OrderController@order')->name('order');
 Route::post('/order/save','OrderController@save')->name('order.save');
+
+Route::group(['middleware' => ['auth']], function() {
+    Route::get('/admin/list','OrderController@list')->name('order.list');
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

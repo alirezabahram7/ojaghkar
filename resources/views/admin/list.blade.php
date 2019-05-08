@@ -54,7 +54,7 @@
                                 </a>
                             </td>
                             <td class="align-middle" style="text-align:center;">
-                                <a href="{{route('order.view',['id'=>$order->id])}}">  
+                                <a href="{{route('order.view',['id'=>$order->id])}}">
                                 {{$order->brand}}
                                 </a>
                             </td>
