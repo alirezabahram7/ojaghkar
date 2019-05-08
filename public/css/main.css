@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("../font/IRANSansWeb.woff") format("woff");
+}
+
+html, body {
+    font-family: 'IRANSansWeb';
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    font-family: 'IRANSansWeb';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}
+div.row{
+    padding:10px;
+    text-align:right;
+    font-family: 'IRANSansWeb';
+}
+i.fa{
+    padding:0;
+    font-size:25px;
+}
+td{
+    text-align:center;
+}
+.browndiv{
+    background-color: rgba(100, 200, 200,1);
+}
+.mainbody {
+    background-image: "mainImg/bk4.jpg";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+navbar {
+    font-family: 'IRANSansWeb';
+    font-weight: normal;
+    font-style: normal;
+}
+
+li.mainnav a {
+   
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li.mainnav a.active {
+    background-color: #3FBFBF;
+    color: black;
+}
+
+li.mainnav a:hover {
+    color: #3FBFBF;
+}
+
+li.mainnav a:active {
+    background-color: #3FBFBF;
+    color: black;
+}
+
+.iransans {
+    font-family: 'IRANSansWeb';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.backgroundset {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.bluediv {
+    background-color: #3FBFBF;
+    color: black;
+}
+
+
+/*=== header  #2 ===*/
+
+#header2 {
+    position: relative;
+    min-width: 100vw;
+    min-height: 95vh;
+    z-index: 0;
+}
+
+#header2 .box {
+    position: absolute;
+    content: '';
+    width: 25%;
+    height: 50%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-30%, 0%);
+    z-index: 1;
+}
+
+#header2 .caption {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-10%, 0%);
+    color: #000;
+    font-weight: 600;
+    font-size: 6rem;
+    background-color: #ffffff;
+    z-index: 2;
+    padding: 10px;
+}
+
+#header2 img {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    height: 100%;
+    z-index: 3;
+}
+
+#header2 .action {
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 4;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eeeeee;
+    color: black;
+    text-align: center;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+ul.mynav {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+li.mynav {
+    float: left;
+    border-left: 1px solid #bbb;
+}
+
+li.mynav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.mynav a:hover:not(.active) {
+    background-color: #000000;
+    opacity: 1;
+    z-index: 1;
+}
+
+li.mynav a.active {
+    background-color: #3FBFBF;
+    opacity: 0.9;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-bookmark-o {
+    color: darkred;
+}
+
+.fa-bookmark {
+    color: darkgreen;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google-plus {
+    background: darkred;
+    color: #ffffff;
+}
+
+.fa-linkedin {
+    background: midnightblue;
+    color: #ffffff;
+}
+
+.fa-instagram {
+    background: rgb(247, 0, 115);
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("font/IRANSansWeb.woff") format("woff");
+}
+
+::placeholder {
+    font-family: 'IRANSansWeb';
+    src: url("font/IRANSansWeb.woff") format("woff");
+    text-align: center;
+}
+
+#mapid {
+    height: 180px;
+}
+
+.entry:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.glyphicon {
+    font-size: 12px;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+.open-button {
+    cursor: pointer;
+}
+
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    display: none;
+    position: fixed;
+    right: 0px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+/* Add styles to the form container */
+
+.popup-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+/* Full-width input fields */
+
+.popup-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* When the inputs get focus, do something */
+
+.popup-container input[type=text]:focus,
+{
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* The container */
+
+.container2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container2:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.container2 input:checked~.checkmark {
+    background-color: brown;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container2 input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.container2 .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.mycheckbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    text-align:right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  /* Hide the browser's default checkbox */
+  
+  .mycheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  
+  /* Create a custom checkbox */
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .radiomark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  /* On mouse-over, add a grey background color */
+  
+  .mycheckbox:hover input~.checkmark {
+    background-color: #ccc;
+  }
+  
+  .mycheckbox:hover input~.radiomark {
+    background-color: #ccc;
+  }
+  /* When the checkbox is checked, add a blue background */
+  
+  .mycheckbox input:checked~.checkmark {
+    background-color: brown;
+  }
+  .mycheckbox input:checked~.radiomark {
+    background-color: brown;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+  
+  .mycheckbox input:checked~.checkmark:after {
+    display: block;
+  }
+  
+  
+  /* Style the checkmark/indicator */
+  
+  .mycheckbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* Show the indicator (dot/circle) when checked */
+  .mycheckbox input:checked ~ .radiomark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .mycheckbox .radiomark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
